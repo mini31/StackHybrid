@@ -43,8 +43,6 @@
     margin-top:10px:
     position:fixed;
     background-color:#2B4F81;
-    
-   
 
 }
 
@@ -143,6 +141,8 @@ input[type=text] ,input[type=email], input[type=Number] {
 
 #formDiv{
 	border:3px solid red;
+    text-align:center;
+    color:Brown;
 }
 
 /* Styling for the buttons*/
@@ -160,7 +160,7 @@ input[type=text] ,input[type=email], input[type=Number] {
     border-radius: 12px;
 }
 
-#visitHere{
+#visitHere {
     
     transform-style: preserve-3d;
     width:50%;
