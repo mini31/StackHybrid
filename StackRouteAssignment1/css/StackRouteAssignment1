@@ -1,0 +1,201 @@
+
+/*Image Section*/
+.images { 
+	
+	height:100%;
+	margin-right:100%;
+	margin-top:10px;
+
+}
+
+#casesWDESABImage {
+
+	float:left;
+    width=10%;
+}
+
+#ThamesWaterImage {
+
+	float:left;
+    width=10%;
+	margint-top:10px;
+}
+
+#visitHere{
+    font-size: 15px;
+    border-radius: 12px;
+}
+
+#img5 {
+    margin-left:30px;   
+}
+
+#img6 {
+    margin-left:30px;   
+}
+
+/*Styling for Header*/
+.headers{
+  
+    border:1px solid black;
+    text-align:center;
+    width:100%;
+    margin-top:10px:
+    position:fixed;
+    background-color:#2B4F81;
+    
+   
+
+}
+
+/*Styling for h1 Heading in the Header*/
+#mainHeading{
+
+    margin-top:-8%;
+    margin-bottom:6%;
+    color:#FF4500;
+    font-family: 'PT Sans', sans-serif;
+    
+
+
+}
+
+/*Styling for Navigation and its lists*/
+#ul1 li{
+    display:inline;
+    padding-right:10px;
+    font-size:25px;
+}
+#ul1 a{
+    text-decoration:none;
+}
+
+#ul1 a:hover{
+    font-size:40px;
+    text-decoration:underline;
+}
+
+#navBar {
+	
+    border:1px solid blue;
+}
+#ul1{
+    margin-left:30%;
+    
+}
+
+/*Styling for All paragraph elements*/
+
+p{
+
+    width:45%;
+    font-family: 'PT Sans', sans-serif;
+    color:#1D7CF2;	
+}
+
+/*Overriding .grid_3 */
+
+.grid_3{
+	list-style-type: none;
+}
+
+/*Providing Background Color*/
+
+body {
+    background-color:#BFEFFF;
+}
+
+
+/*Styling for all the links*/
+
+a{
+	text-decoration:none;
+	color:#104E8B;
+}
+
+a:hover{
+	
+	color:#FF030D;
+}
+
+/*Syling for fist elemnt of the lists in the footer*/
+.footerClass{
+	
+	color:#3232CC;
+}
+
+/* Styling for form*/
+#frmcontact{
+	border:8px solid brown	;
+
+}
+
+/* providing Input style to form*/
+input[type=text] ,input[type=email], input[type=Number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: brown;
+    color: black;
+}
+
+#formDiv{
+	border:3px solid red;
+}
+
+/* Styling for the buttons*/
+.button {
+    background-color: #0000A0; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+#visitHere{
+    
+    transform-style: preserve-3d;
+    width:50%;
+    font-family: 'PT Sans', sans-serif;
+    font-size:15px;
+
+}
+
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    80% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+
+#visitHere:hover {
+    animation: bounce 1s;
+    font-size:20px;
+}
+
+span {
+     
+     width:50%;
+     font-family: 'PT Sans', sans-serif;
+     color:#FF0000;
+     
+    
+}
